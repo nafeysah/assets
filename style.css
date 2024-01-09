@@ -34,14 +34,14 @@ main{
     background-color: white;
     height: 90vh;
     width: 60vw;
-    padding: 1rem;
+    padding: 2rem;
 }
 .part1{
     display: flex;
 }
 .preview{
-    height: 12rem;
-    width: 17rem;
+    height: 11rem;
+    width: 16rem;
     padding: 2rem;
 }
 .drive{
@@ -66,45 +66,30 @@ nav ul{
     list-style-type: none;
 }
 h1{
-    font-size: xx-large;
+    font-size: 60px;
     font-weight: 500;
-    padding-left: 3rem;
-    padding-top: 4rem;
-    height: 100px;
+    padding-left: 2rem;
+    height: 110px;
 }
 .visiting{
     display: flex;
-    font-weight: 500;
-    font-size: larger;
-    align-items: center;
-    justify-content: center;
-}
-hr{
-    width: 100px;
-    height: 1px;
-    border:solid black;
-    justify-content: first baseline;
-    margin-right: 0%;
 }
 h3{
-    padding-top: 2rem;
-    padding-left: 3rem;
+    padding-left: 2.5rem;
+    padding-top: 1.5rem;
 }
 .relative{
     position: relative;
-    display: inline-block;
-
+    align-items: center;
+    justify-content: center;
 }
 .play{
     position: absolute;
     background-color: white;
-    top: 40%; left: 50%;
-    
+    top: 35%; left: 45%; border-radius: 15px;
 }
 .forward{
     display: flex;
-     padding-left: 3rem;
-    display: flex;
-    vertical-align: middle;
-    
+    padding-left: 3rem;
+    font-size: small;
 }
